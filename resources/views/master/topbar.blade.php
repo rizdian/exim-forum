@@ -1,4 +1,4 @@
-<div class="top-bar">
+<div class="top-bar hidden">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
