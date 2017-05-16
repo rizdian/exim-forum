@@ -12,15 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('welcome');
 });
 
 Route::get('/login', function () {
     return view('login');
+});
+
+Route::get('/beranda', function () {
+    return view('beranda');
 });
 
 
