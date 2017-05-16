@@ -27,6 +27,10 @@ Route::get('/beranda', function () {
     return view('beranda');
 });
 
+Route::get('/view-forum', function () {
+    return view('detailforum');
+});
+
 
 
 
