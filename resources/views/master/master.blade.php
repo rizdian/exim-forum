@@ -34,7 +34,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
 
 	<!-- Color Defult -->
-	<link rel="stylesheet" type="text/css" href="css/colors/red.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/colors/blue.css" media="screen" />
 
 
 
