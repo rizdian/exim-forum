@@ -8,7 +8,7 @@
 			</button>
 			<!-- End Toggle Nav Link For Mobiles -->
 			<a class="navbar-brand" href="index.html">
-				<img alt="EXIM" src="images/exim-logo.jpg">
+				<img alt="EXIM" src="images/logo-exim.png" style="width: 50%;">
 			</a>
 		</div>
 		<div class="navbar-collapse collapse">

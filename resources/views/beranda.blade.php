@@ -2,6 +2,68 @@
 
 @section('title', 'Page Title')
 
+@section('css')
+    <style>
+        .card-master {
+            width: 100%;
+            padding: 10px;
+            border-radius: 1px;
+            box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
+        }
+
+        .card-submaster {
+            width: 100%;
+            padding: 10px;
+            border-radius: 1px;
+            box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
+        }
+
+        .card-blockquote {
+        	border-left: 5px solid #1998ed;
+        	padding: 10px;
+        	font-weight: bold;
+        }
+
+        .item {
+            margin-bottom: 10px;
+        }
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .item > img {
+            width: 80px;
+            height: 80px;
+            border: 2px solid transparent;
+            border-radius: 50%;
+        }
+
+        .item > .message {
+            margin-left: 85px;
+            margin-top: -80px;
+        }
+        p {
+            margin: 0 0 10px;
+        }
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .btn-master > .btn {
+            margin-top: 8%;
+            margin-left: 5px;
+        }
+
+        .card-blockquote p, .card-submaster p {
+        	margin-bottom: 0px;
+        }
+    </style> 
+@endsection
+
 @section('content')
 	<!-- Start Content -->
     <div id="content">
@@ -19,21 +81,171 @@
 				<div class="col-md-9 page-content">
 
 					<!-- Classic Heading -->
-					<h4 class="classic-title"><span>Margo Buttons System</span></h4>
+					<h4 class="classic-title hidden"><span>Margo Buttons System</span></h4>
 
 					<!-- Accnent Color Buttons -->
-					<p>
-					  <a href="#" class="btn-system btn-large">Button</a>
-					  <a href="#" class="btn-system btn-medium">Button</a>
-					  <a href="#" class="btn-system btn-small">Button</a>
-					  <a href="#" class="btn-system btn-mini">Button</a>
-					  <a href="#" class="btn-system btn-large"><i class="icon-heart-4"></i> Button</a>
-					  <a href="#" class="btn-system btn-medium"><i class="icon-heart-4"></i> Button</a>
-					  <a href="#" class="btn-system btn-small"><i class="icon-heart-4"></i> Button</a>
-					  <a href="#" class="btn-system btn-mini"><i class="icon-heart-4"></i> Button</a>
-					</p>
-
-					<p><strong class="accent-color">You can also use the wite button in Home-slider</strong>.</p>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul>
+                                <li>                                
+                                    <div class="card-master">
+                                        <div class="row">
+                                            <div class="col-lg-8 item">                                                
+                                                <img     src="https://www.w3schools.com/howto/img_avatar2.png" 
+                                                        class="img-thumbnail" 
+                                                        alt="Avatar">
+                                                <p class="message">
+                                                    <a href="#" class="name">
+                                                        Berita dan Politik
+                                                    </a><br>
+                                                    Forum diskusi dan berbagi berita dari dalam maupun luar negeri.
+                                                    Mulai dari ideologi, politik, ekonomi, sosial dan budaya.
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-4 btn-master">
+                                                <a class="btn btn-default pull-right" href="#" role="button">Forum Chat</a>
+                                                <a class="btn btn-default pull-right" href="#" role="button">Subscribe</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="hidden-xs">
+                                <li>
+                                    <div class="card-master card-blockquote">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <p>
+                                                    Subforum: Berita dan Politik
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                            	<div class="row">
+                                            		<div class="col-lg-5">
+		                                                <p>
+		                                                    Stats
+		                                                </p>
+                                            		</div>
+                                            		<div class="col-lg-7">
+                                            			<p>
+		                                                    Last Post
+		                                                </p>
+                                            		</div>
+                                            	</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="card-submaster">
+                                        <div class="row">
+                                            <div class="col-lg-6 item">
+                                                <img     src="https://www.w3schools.com/howto/img_avatar2.png" 
+                                                        class="img-thumbnail" 
+                                                        alt="Avatar">
+                                                <p class="message">
+                                                    <a href="#" class="name">
+                                                        Berita Dunia Hiburan
+                                                    </a><br>
+                                                    Mau makin dekat dengan kehidupan selebritis? Ayo diskusikan berbagai
+                                                    update dari dunia entertaiment!
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                            	<div class="row">
+                                            		<div class="col-lg-5">
+		                                                <p>Replies: <b>3</b></p>
+		                                                <p>Views: <b>128</b></p>
+                                            		</div>
+                                            		<div class="col-lg-7">
+                                            			<p class="message">
+		                                                    <a href="#" class="name">
+		                                                        Merah Menyala, Khloe Kardashian Pamer Belahan Dada
+		                                                    </a><br>
+		                                                    Today 14:12 <i>by:</i>pophonorface
+		                                                </p>
+                                            		</div>
+                                            	</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="card-submaster">
+                                        <div class="row">
+                                            <div class="col-lg-6 item">
+                                                <img     src="https://www.w3schools.com/howto/img_avatar2.png" 
+                                                        class="img-thumbnail" 
+                                                        alt="Avatar">
+                                                <p class="message">
+                                                    <a href="#" class="name">
+                                                        Beritaga.id
+                                                    </a><br>
+                                                    Temukan pengalaman baru dalam membaca berita dan berbagai info unik lainnya
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                            	<div class="row">
+                                            		<div class="col-lg-5">
+		                                                <p>Replies: <b>40</b></p>
+		                                                <p>Views: <b>1,587</b></p>
+                                            		</div>
+                                            		<div class="col-lg-7">
+                                            			<p class="message">
+		                                                    <a href="#" class="name">
+		                                                        Jokowi bertemu SBY, lalu apa?
+		                                                    </a><br>
+		                                                    Today 14:32 <i>by:</i>batzyndrome
+		                                                </p>
+                                            		</div>
+                                            	</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="card-submaster">
+                                        <div class="row">
+                                            <div class="col-lg-6 item">
+                                                <img     src="https://www.w3schools.com/howto/img_avatar2.png" 
+                                                        class="img-thumbnail" 
+                                                        alt="Avatar">
+                                                <p class="message">
+                                                    <a href="#" class="name">
+                                                        Berita Luar Negeri
+                                                    </a><br>
+                                                    Tempat diskusi mengenai berita luar negeri.
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                            	<div class="row">
+                                            		<div class="col-lg-5">
+		                                                <p>Replies: <b>9,651</b></p>
+		                                                <p>Views: <b>254,231</b></p>
+                                            		</div>
+                                            		<div class="col-lg-7">
+                                            			<p class="message">
+		                                                    <a href="#" class="name">
+		                                                        All About Konflik Timur Tengah dan Afrika Utara menghadapi Terorisme
+		                                                        part 3 - part 2
+		                                                    </a><br>
+		                                                    Today 14:27 <i>by:</i>budicute2nd
+		                                                </p>
+                                            		</div>
+                                            	</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
 				</div>
 				<!-- End Page Content-->
