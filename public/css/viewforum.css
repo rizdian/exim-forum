@@ -1,0 +1,46 @@
+.forumpost {
+        display: block;
+        position: relative;
+        margin: 0 0 1em 0;
+        padding: 0;
+        max-width: 100%;
+        margin-left:1%;
+    }
+    .forumpost .row {
+        width: 100%;
+        position: relative;
+    }
+    .maincontent{
+        margin-top:15px;
+    }
+    .forumpost .row .left {
+        float: left;
+        width: 43px;
+        overflow: hidden;
+    }
+    .forumpost .picture img {
+        margin: 4px;
+    }
+    .forumpost .options .commands, .forumpost .content .attachments, .forumpost .options .footer,{
+        text-align: right;
+    }
+    .forumpost .row .topic, .forumpost .row .content-mask, .forumpost .row .options {
+        margin-left: 43px;
+    }
+    .author{
+        height: 35px;
+    }
+    .reply{
+        margin-left: 30px;
+        margin-bottom:1%;
+    }
+    .no-overflow {
+        overflow: auto;
+        padding-bottom: 1px;
+    }     
+    .blockquote {
+        border: solid 1px #f1f1f1;
+        border-radius: 2px;
+        font-size: 14px;
+        padding: 18px;
+    }
