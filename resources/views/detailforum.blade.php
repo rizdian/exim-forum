@@ -17,7 +17,7 @@
         position: relative;
     }
     .maincontent{
-        margin-top:5px;
+        margin-top:15px;
     }
     .forumpost .row .left {
         float: left;
@@ -38,6 +38,7 @@
     }
     .reply{
         margin-left: 30px;
+        margin-bottom:1%;
     }
     .no-overflow {
         overflow: auto;
@@ -62,7 +63,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="col-md-12">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-xs-7">
                             <h5>Topic</h5>
                         </div>
                         <div class="col-md-1">
@@ -73,7 +74,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-xs-7">
                             <h5>Sender</h5>
                         </div>
                         <div class="col-md-1">
@@ -84,7 +85,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-xs-7">
                             <h5>Perusahaan</h5>
                         </div>
                         <div class="col-md-1">
@@ -95,14 +96,14 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-xs-7">
                             <h5>Tanggal Posting</h5>
                         </div>
                         <div class="col-md-1">
                             <h5>:</h5>
                         </div>
                         <div class="col-md-9">
-                            <h5>9 Maret 2017</h5>
+                            <h5>15 Mei 2017</h5>
                         </div>
                     </div>
                 </div>
@@ -267,6 +268,47 @@
                                     <div class="options clearfix">
                                         <div class="commands">
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reply blockquote">
+                        <div class="forumpost blockquote">
+                            <div class="row header">
+                                <div class="left picture">
+                                    <a href="#">
+                                        <img src="{{ URL::to('/') }}/images/flickr-01.jpg" 
+                                        class="userpicture defaultuserpic" width="35" height="35">
+                                    </a>
+                                </div>
+                                <div class="topic firstpost starter">
+                                    <div class="author">
+                                        Yusup
+                                        <br>
+                                        Selasa, 16 Mei 2017, 10:50
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row maincontent">
+                                <div class="left">
+                                    <div class="grouppictures">&nbsp;</div>
+                                </div>
+                                <div class="no-overflow">
+                                    <div class="content">
+                                        <div class="posting fullpost">
+                                            <p>Presiden Jokowi Memberikan ............</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row side">
+                                <div class="left">&nbsp;</div>
+                                <div class="options clearfix">
+                                    <div class="commands">
+                                        <button type="button" class="btn btn-primary btn-xs">Balas</button>
                                     </div>
                                 </div>
                             </div>
