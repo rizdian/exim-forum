@@ -62,7 +62,7 @@
         <b>User Login</b>
       </div><!-- /.login-logo -->
       <div class="login-box-body" style="">
-        <form action="{{url('beranda')}}" method="get">
+        <form action="{{url('beranda')}}" method="post">
           <div class="form-group has-feedback">
             <input type="text" name="Username" class="form-control" placeholder="Username" maxlength="30" required/>
             <span class="form-control-feedback"><i class="fa fa-user"></i></span>

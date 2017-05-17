@@ -102,10 +102,10 @@
                                                     Mulai dari ideologi, politik, ekonomi, sosial dan budaya.
                                                 </p>
                                             </div>
-                                            <div class="col-lg-4 btn-master">
+                                            {{-- <div class="col-lg-4 btn-master">
                                                 <a class="btn btn-default pull-right" href="#" role="button">Forum Chat</a>
                                                 <a class="btn btn-default pull-right" href="#" role="button">Subscribe</a>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </li>
@@ -162,7 +162,7 @@
                                             		<div class="col-lg-7">
                                             			<p class="message">
 		                                                    <a href="#" class="name">
-		                                                        Merah Menyala, Khloe Kardashian Pamer Belahan Dada
+		                                                        Merah Menyala, Khloe Kardashian Seleb Top Ten
 		                                                    </a><br>
 		                                                    Today 14:12 <i>by:</i>pophonorface
 		                                                </p>
@@ -267,22 +267,20 @@
 						<h4>Categories <span class="head-line"></span></h4>
 						<ul>
 							<li>
-								<a href="#">Brandign</a>
+								<a href="#">Pembiayaan</a>
 							</li>
 							<li>
-								<a href="#">Design</a>
+								<a href="#">Regulasi</a>
 							</li>
 							<li>
-								<a href="#">Development</a>
+								<a href="#">Konsultasi</a>
 							</li>
-							<li>
-								<a href="#">Graphic</a>
-							</li>
+							
 						</ul>
 					</div>
 
 					<!-- Popular Posts widget -->
-					<div class="widget widget-popular-posts">
+					{{-- <div class="widget widget-popular-posts">
 						<h4>Popular Post <span class="head-line"></span></h4>
 						<ul>
 							<li>
@@ -316,10 +314,10 @@
 								<div class="clearfix"></div>
 							</li>
 						</ul>
-					</div>
+					</div> --}}
 
 					<!-- Tags Widget -->
-					<div class="widget widget-tags">
+					{{-- <div class="widget widget-tags">
 						<h4>Tags <span class="head-line"></span></h4>
 						<div class="tagcloud">
 							<a href="#">Portfolio</a>
@@ -335,7 +333,7 @@
 							<a href="#">Google</a>
 						</div>
 					</div>
-
+ --}}
 				</div>
 				<!--End sidebar-->
 
